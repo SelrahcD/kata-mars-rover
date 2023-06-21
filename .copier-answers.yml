@@ -1,8 +1,9 @@
-_commit: 0.8.0
+_commit: 0.10.1
 _src_path: gh:selrahcd/copier-php-kata
 include_docker: true
+include_mobsh: true
 include_sample_test: true
-include_tcr_script: true
+include_tcr_script: false
 kata_name: MarsRover
 tell_about_test_run_logger: true
 test_run_logger: true

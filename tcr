@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-./vendor/bin/phpunit && git commit -am 'Working' || git checkout -- ./src/

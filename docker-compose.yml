@@ -3,5 +3,7 @@ version: "3.9"
 services:
   php:
     build: .
+    env_file: .env
+    user: ${HOST_UID}:${HOST_GID}
     volumes:
       - .:/app
